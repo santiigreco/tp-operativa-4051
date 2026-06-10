@@ -6,6 +6,9 @@ El objetivo de esta plataforma es aplicar, simular y explorar visualmente los di
 
 ## 👨‍🎓 Integrantes
 - Santiago Greco
+- Leonardo Diaz
+- Leandro Pérez Endl
+- Ivan Zymerman
 
 ## 📚 Temas a desarrollar
 1. **Procesos de Markov:** Análisis de sistemas estocásticos y transiciones de estado a lo largo del tiempo.

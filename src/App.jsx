@@ -24,7 +24,12 @@ function App() {
 
       <footer className="footer">
         <p>Integrantes:</p>
-        <p className="integrantes">Santiago Greco</p>
+        <div className="integrantes-list">
+          <p className="integrantes">Santiago Greco</p>
+          <p className="integrantes">Leonardo Diaz</p>
+          <p className="integrantes">Leandro Pérez Endl</p>
+          <p className="integrantes">Ivan Zymerman</p>
+        </div>
         
         <div className="discord-link-container">
           <a href="https://discord.gg/qansbU9c" target="_blank" rel="noopener noreferrer" className="discord-btn" title="Ir al Discord de la materia">

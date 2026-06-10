@@ -243,12 +243,19 @@ body {
   font-size: 0.9rem;
 }
 
+.integrantes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
 .footer .integrantes {
   font-family: 'Outfit', sans-serif;
   color: var(--text-primary);
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .discord-link-container {
