@@ -251,6 +251,37 @@ body {
   margin-top: 0.5rem;
 }
 
+.discord-link-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.discord-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: #5865F2; /* Discord brand color */
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(88, 101, 242, 0.4);
+}
+
+.discord-btn:hover {
+  background-color: #4752C4;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(88, 101, 242, 0.6);
+}
+
+.discord-btn svg {
+  fill: currentColor;
+}
+
 /* Animations */
 @keyframes fadeDown {
   from { opacity: 0; transform: translateY(-30px); }
