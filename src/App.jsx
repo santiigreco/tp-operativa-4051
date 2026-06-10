@@ -15,7 +15,7 @@ function App() {
       <header className="header">
         <img src="/utn-logo.jpg" alt="UTN Logo" className="logo" />
         <div className="header-text">
-          <h1>Trabajo Práctico</h1>
+          <h1>Trabajo Práctico 1</h1>
           <h2>Investigación Operativa I4051</h2>
         </div>
       </header>
