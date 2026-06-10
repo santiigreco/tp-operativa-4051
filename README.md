@@ -49,4 +49,4 @@ Para una correcta configuración manual, utiliza los siguientes valores en los *
 
 > **Nota:** El archivo `public/_redirects` ya se encuentra configurado para que el enrutamiento interno de React funcione correctamente en producción sin generar errores `404`.
 
-test2 wifi utn
+test2 wifi utn2
