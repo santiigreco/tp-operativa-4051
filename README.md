@@ -1,4 +1,4 @@
-# Trabajo Práctico de Investigación Operativa I4051 - UTN
+# Trabajo Práctico 1 de Investigación Operativa I4051 - UTN
 
 Este proyecto es una aplicación web interactiva desarrollada para la materia **Investigación Operativa** de la Universidad Tecnológica Nacional (UTN).
 
