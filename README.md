@@ -1,16 +1,41 @@
-# React + Vite
+# Trabajo Práctico de Investigación Operativa - UTN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web interactiva desarrollada para la materia **Investigación Operativa** de la Universidad Tecnológica Nacional (UTN).
 
-Currently, two official plugins are available:
+El objetivo de esta plataforma es aplicar, simular y explorar visualmente los diferentes modelos matemáticos y algoritmos de optimización vistos durante la cursada.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 👨‍🎓 Integrantes
+- Santiago Greco
 
-## React Compiler
+## 📚 Temas a desarrollar
+1. **Procesos de Markov:** Análisis de sistemas estocásticos y transiciones de estado a lo largo del tiempo.
+2. **Simulación:** Modelado computacional para predecir y entender el comportamiento de sistemas complejos.
+3. **Filas de Espera (Teoría de Colas):** Análisis para optimizar el flujo y reducir tiempos de espera en sistemas de servicio.
+4. **Gestión de Proyectos (PERT - CPM):** Planificación y control de proyectos mediante análisis de caminos críticos y estimación de tiempos.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Tecnologías utilizadas
+- **Vite + React:** Para un entorno de desarrollo rápido y una interfaz de usuario dinámica.
+- **CSS Vanilla:** Estilos modernos personalizados, aprovechando *Glassmorphism*, gradientes y micro-animaciones.
+- **Netlify:** Plataforma para el despliegue automático y continuo.
 
-## Expanding the ESLint configuration
+## ⚙️ Cómo ejecutar localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Instalar las dependencias del proyecto:
+   ```bash
+   npm install
+   ```
+
+2. Ejecutar el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+   Luego, abre en tu navegador la dirección que figura en consola (usualmente `http://localhost:5173/`).
+
+## 📦 Despliegue en Netlify
+
+El proyecto está preparado para ser desplegado sin problemas en Netlify.
+Para una correcta configuración manual, utiliza los siguientes valores en los **Build settings**:
+- **Build command:** `npm run build`
+- **Publish directory:** `dist`
+
+> **Nota:** El archivo `public/_redirects` ya se encuentra configurado para que el enrutamiento interno de React funcione correctamente en producción sin generar errores `404`.
